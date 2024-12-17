@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 350px; /* Lebar sedikit lebih lebar */
+    margin: 100px auto; /* Menempatkan di tengah vertikal */
+    padding: 30px; /* Padding lebih banyak untuk ruang */
+    background-color: #ffffff;
+    border-radius: 10px; /* Sudut lebih bulat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam */
+    transition: transform 0.3s ease; /* Transisi saat hover */
+}
+
+.login-container:hover {
+    transform: translateY(-5px); /* Efek mengangkat saat hover */
+}
+
+h2 {
+    text-align: center; /* Memusatkan judul */
+    color: #333; /* Warna teks judul */
+}
+
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px; /* Padding lebih banyak untuk kenyamanan */
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 5px; /* Sudut input lebih bulat */
+    transition: border-color 0.3s ease; /* Transisi border saat fokus */
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+    border-color: #105abb; /* Warna border saat fokus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #105abb;
+    color: white;
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut tombol lebih bulat */
+    cursor: pointer; /* Menunjukkan bahwa ini adalah tombol yang dapat diklik */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transisi untuk efek hover dan klik */
+}
+
+button:hover {
+    background-color: #105abb; /* Warna tombol saat hover */
+    transform: translateY(-2px); /* Efek mengangkat saat hover */
+}
+
+#error-message {
+    color: red;
+    text-align: center; /* Memusatkan pesan kesalahan */
+}
+
+/* Gaya untuk notifikasi */
+.notification {
+    background-color: #105abb; /* Warna hijau untuk notifikasi berhasil */
+    color: white; /* Warna teks putih */
+    padding: 15px; /* Padding untuk notifikasi */
+    margin-top: 10px; /* Margin atas untuk pemisahan dari elemen lain */
+    text-align: center; /* Teks tengah dalam notifikasi */
+    border-radius: 5px; /* Sudut melengkung pada notifikasi */
+}
+
+/* Gaya untuk gambar buku */
+img {
+    width: 50px; /* Atur lebar gambar */
+    height: auto; /* Tinggi otomatis agar proporsional */
+    border-radius: 5px; /* Sudut gambar lebih bulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut di sekitar gambar */
+    transition: transform 0.3s ease; /* Transisi saat hover pada gambar */
+}
+
+img:hover {
+    transform: scale(1.1); /* Efek zoom saat hover pada gambar */
+}
+
+/* Gaya untuk tabel buku */
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+table, th, td {
+   border: 1px solid #ccc;
+}
+
+th, td {
+   padding: 10px;
+   text-align: left;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #105abb; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    text-align: center; /* Memusatkan teks footer */
+    padding: 15px 0; /* Padding atas dan bawah pada footer */
+}
+
+footer p {
+    margin: 0; /* Menghilangkan margin default pada paragraf di footer */
+}
